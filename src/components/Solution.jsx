@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from "react";
+import { useState } from "react";
 import "./style.css";
 
-import { items } from "./items";
 import { filters } from "./filters";
+import { items } from "./items";
 
 export default function Solution() {
   const [activeFilters, setActiveFilters] = useState([]);
